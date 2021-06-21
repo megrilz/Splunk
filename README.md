@@ -36,6 +36,7 @@ ratio
 
 
 Based on the report created, what is the approximate date and time of the attack? 02/23/2020 at 2:30pm to 02/23/2020 at 8:30pm 
+
 How long did it take your systems to recover? 6 hours
 
 ![image](https://user-images.githubusercontent.com/80080368/122797133-23eeb400-d28d-11eb-80d1-e268d6208ac1.png)
@@ -44,11 +45,12 @@ How long did it take your systems to recover? 6 hours
 
 # Step 2: Are We Vulnerable?
 Background: Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
+
 For more information on Nessus, read the following link: https://www.tenable.com/products/nessus
 # Task: 
 
 Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.
-Upload the following file from the Nessus vulnerability scan.
+
 
 
 Nessus Scan Results
@@ -58,6 +60,7 @@ Nessus Scan Results
 ![image](https://user-images.githubusercontent.com/80080368/122797325-5c8e8d80-d28d-11eb-8185-cec1cfa77413.png)
 
 The database server IP is 10.11.36.23.
+
 The field that identifies the level of vulnerabilities is severity.
 
 Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
