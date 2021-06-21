@@ -13,6 +13,9 @@ Upload the following file of the system speeds around the time of the attack.
 # Speed Test File
 Using the eval command, create a field called ratio that shows the ratio between the upload and download speeds.
 
+The format for creating a ratio is: | eval new_field_name = 'fieldA' / 'fieldB'
+
+
 
 ![image](https://user-images.githubusercontent.com/80080368/122796549-86938000-d28c-11eb-9318-29de2f880f31.png)
 
@@ -29,6 +32,7 @@ DOWNLOAD_MEGABITS
 UPLOAD_MEGABITS
 ratio
 
+Use the following format when for the table command: | table fieldA fieldB fieldC
 
 ![image](https://user-images.githubusercontent.com/80080368/122796745-bfcbf000-d28c-11eb-9dd6-f8a665e1b1b0.png)
 
