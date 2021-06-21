@@ -4,7 +4,9 @@
 # Step 1: The Need for Speed
 Background: As the worldwide leader of importing and exporting, Vandalay Industries has been the target of many adversaries attempting to disrupt their online business. Recently, Vandaly has been experiencing DDOS attacks against their web servers.
 Not only were web servers taken offline by a DDOS attack, but upload and download speed were also significantly impacted after the outage. Your networking team provided results of a network speed run around the time of the latest DDOS attack.
-Task: Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed.
+
+# Task: 
+Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed.
 Upload the following file of the system speeds around the time of the attack.
 
 
@@ -32,8 +34,6 @@ ratio
 
 
 
-Answer the following questions:
-
 
 Based on the report created, what is the approximate date and time of the attack? 02/23/2020 at 2:30pm to 02/23/2020 at 8:30pm 
 How long did it take your systems to recover? 6 hours
@@ -45,12 +45,14 @@ How long did it take your systems to recover? 6 hours
 # Step 2: Are We Vulnerable?
 Background: Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
 For more information on Nessus, read the following link: https://www.tenable.com/products/nessus
-Task: Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.
+# Task: 
+
+Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.
 Upload the following file from the Nessus vulnerability scan.
 
 
 Nessus Scan Results
-Create a report that shows the count of critical vulnerabilities from the customer database server.
+ A report that shows the count of critical vulnerabilities from the customer database server.
 
 
 ![image](https://user-images.githubusercontent.com/80080368/122797325-5c8e8d80-d28d-11eb-8185-cec1cfa77413.png)
@@ -77,7 +79,8 @@ Build an alert that monitors every day to see if this server has any critical vu
 
 # Step 3: Drawing the (base)line
 Background: A Vandaly server is also experiencing brute force attacks into their administrator account. Management would like you to set up monitoring to notify the SOC team if a brute force attack occurs again.
-Task: Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
+# Task: 
+Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
 Upload the administrator login logs.
 
 
@@ -95,7 +98,6 @@ Determine a baseline of normal activity and a threshold that would alert if a br
 Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered.
 
 
-Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
 
 ![image](https://user-images.githubusercontent.com/80080368/122798201-50570000-d28e-11eb-84f7-743c26080b08.png)
 
